@@ -1,4 +1,4 @@
-# this files contains 11 species' network files and corresponding similarity files
+# This files contains 11 species' network files and corresponding similarity files
 **
 # noted : all files are raw, meaning that they all need cleaning
 
