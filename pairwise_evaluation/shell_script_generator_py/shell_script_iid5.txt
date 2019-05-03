@@ -1,0 +1,10 @@
+sort cow-dog.align | uniq > cow-dog.txt 
+sort cow-human.align | uniq > cow-human.txt 
+sort cow-mouse.align | uniq > cow-mouse.txt 
+sort cow-rat.align | uniq > cow-rat.txt 
+sort dog-human.align | uniq > dog-human.txt 
+sort dog-mouse.align | uniq > dog-mouse.txt 
+sort dog-rat.align | uniq > dog-rat.txt 
+sort human-mouse.align | uniq > human-mouse.txt 
+sort human-rat.align | uniq > human-rat.txt 
+sort mouse-rat.align | uniq > mouse-rat.txt 
