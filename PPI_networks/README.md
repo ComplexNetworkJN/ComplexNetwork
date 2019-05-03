@@ -17,6 +17,8 @@ IIDrta.el		rt.net
 IIDsheep.el		sh.net
 
 
-# For new similarity files 1-eval
+# For new similarity files 1-eval and e-val
 ## .sim files are separated by tab 
 ## .txt files are separated by whitespace
+
+note: netCoffee uses e-val
