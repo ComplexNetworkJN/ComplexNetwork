@@ -19,8 +19,8 @@ for species in l:
         #print(line.rstrip().split(' '))
         p1,p2, a,b,c, bit_score, evalue = line.rstrip().split(' ')
         if p1 in dspecies and p2 in dspecies:
-            f2.write(f"{dspecies[p1]}\t{dspecies[p2]}\t{evalue}\n")
-            f3.write(f"{dspecies[p1]} {dspecies[p2]} {evalue}\n")
+            f2.write(f"{dspecies[p1]}\t{dspecies[p2]}\t{bit_score}\n")
+            f3.write(f"{dspecies[p1]} {dspecies[p2]} {bit_score}\n")
     
     # close all files
     cat.close()
