@@ -4,7 +4,7 @@ Created on Fri Mar  8 12:22:02 2019
 
 @author: Administrator
 """
-name=input("Input similarity file's Name")
+name=input("Input similarity file's Name:\n")
 
 
 read = open(f'{name}.evals','r')
