@@ -23,7 +23,7 @@ for species in l:
             f3.write(f"{dspecies[p1]} {dspecies[p2]} {bit_score}\n")
     
     # close all files
-    cat.close()
+    species_dict.close()
     f.close()
     f2.close()
     f3.close()

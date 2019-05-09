@@ -23,7 +23,7 @@ for species in l:
             f3.write(f"{dspecies[p1]} {dspecies[p2]} {evalue}\n")
     
     # close all files
-    cat.close()
-    f.close()
+    species_dict.close()
+    f1.close()
     f2.close()
     f3.close()
