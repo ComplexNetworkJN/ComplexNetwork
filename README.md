@@ -11,3 +11,8 @@
 ### Alignment_Result_Evaluation
 
     - 用来存放处理、评估network alignment结果的文件夹
+    
+    
+### Synthetic Networks
+
+    - 各算法 公用的测试网络数据
