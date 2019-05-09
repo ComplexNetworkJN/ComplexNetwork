@@ -1,5 +1,13 @@
 BEAMS 相似性文件
 
-no_sim 为修改相似性文件，使值为1.0的转换文件
-
-con_sim 为生成全部节点相似性为1的文件
+no_sim 为修改相似性文件，使值为1.0的转换文件,按提示输入相似性文件名称进行转换
+e.g
+    Input similarity file's Name:
+    human-rat
+con_sim 为生成全部节点相似性为1的文件,输入生成的文件名，和物种节点数
+e.g
+    Input species' name:
+    human-rat
+    Input number of nodes:
+    54,25     //前者为human节点数，后者为rat节点数
+    
