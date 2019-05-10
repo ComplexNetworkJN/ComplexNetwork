@@ -1,7 +1,8 @@
 import pickle
 
-l=["cat","cow","dog","guinea_pig","human","horse","rabbit","rta","pig","mouse","sheep"]
+l=["cat","cow","dog","guinea_pig","horse","rabbit","rat","pig","mouse","sheep"]
 #11 species
+#10 because human has already been done
 
 
 for species in l:
@@ -14,7 +15,7 @@ for species in l:
     f2=open(f"{species}-{species}.sim","w")# "\t"   write to sim file
     f3=open(f"{species}-{species}.txt","w")# " "    write to txt file
 
-    for line in f:
+    for line in f1:
     #    print(line)i
         #print(line.rstrip().split(' '))
         p1,p2, a,b,c, bit_score, evalue = line.rstrip().split(' ')
@@ -24,6 +25,6 @@ for species in l:
     
     # close all files
     species_dict.close()
-    f.close()
+    f1.close()
     f2.close()
     f3.close()

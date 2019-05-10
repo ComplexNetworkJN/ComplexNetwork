@@ -12,8 +12,9 @@ def eval_cal(e:str):
 #----
 
 
-l=["cat","cow","dog","guinea_pig","human","horse","rabbit","rta","pig","mouse","sheep"]
+l=["cat","cow","dog","guinea_pig","horse","rabbit","rta","pig","mouse","sheep"]
 #11 species
+#10 because human has already been done
 
 
 for species in l:
@@ -26,7 +27,7 @@ for species in l:
     f2=open(f"{species}-{species}.sim","w")# "\t"   write to sim file
     f3=open(f"{species}-{species}.txt","w")# " "    write to txt file
 
-    for line in f:
+    for line in f1:
     #    print(line)i
         #print(line.rstrip().split(' '))
         p1,p2, a,b,c, bit_score, e_val = line.rstrip().split(' ')
@@ -35,7 +36,7 @@ for species in l:
             f3.write(f"{dspecies[p1]} {dspecies[p2]} {eval_cal(e_val)}\n")
     
     # close all files
-    cat.close()
-    f.close()
+    species_dict.close()
+    f1.close()
     f2.close()
     f3.close()
