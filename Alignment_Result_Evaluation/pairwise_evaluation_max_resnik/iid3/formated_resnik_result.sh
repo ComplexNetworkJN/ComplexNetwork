@@ -7,4 +7,4 @@
 
 sh resnik_result.sh > resnik_result_iid3.txt
 python3 format_resnik_result.py
-rm resnik_result_iid5.txt
+rm resnik_result_iid3.txt
