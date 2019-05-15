@@ -31,10 +31,7 @@ for each in sorted(L):
     for line in fread:
         
         p1,p2=line.rstrip().split(" ")
-        if "ra" in p1:
-            p1="rt" + p1[2:]
-        if "ra" in p2:
-            p2="rt" + p2[2:]
+    
     #rat are renamed rt123, rt124. So we need to first change ra to rt;
     #ps: if in the original input data, rat has already been changed to rt123...
     #then, just comment out the above if statements;
