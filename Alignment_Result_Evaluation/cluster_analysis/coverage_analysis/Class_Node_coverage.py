@@ -63,6 +63,8 @@ def line_dict(a_list: list):
             spe_pro_dict["sheep"].append(sheep[each])
     return spe_pro_dict
 
+print(len(set(human.values())| set(mouse.values()) | set(rat.values())))
+#number of proteins for 3 networks
 
 _total = set(cat.values()) | set(cow.values()) | set(dog.values()) | set(guinea_pig.values()) | set(
     horse.values()) | set(human.values()) | set(mouse.values()) | set(pig.values()) | set(rabbit.values()) | set(
