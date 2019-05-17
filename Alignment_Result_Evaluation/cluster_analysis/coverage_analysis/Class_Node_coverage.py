@@ -79,6 +79,7 @@ if __name__ == '__main__':
     node_count = defaultdict(int)
     number_of_clusters = 0
     alignment_file = input("enter alignment file:")
+    #alignment_file='C:/Users/DELL/Desktop/SMETANA_result_iid11.txt'
     f = open(alignment_file)
 
     protein_set = set()
@@ -103,13 +104,13 @@ if __name__ == '__main__':
 
     f.close()
 
-    print(f"In total, there are\t{number_of_clusters}\tclusters in the alignment result.")
-    print(f"{len(protein_set)}\tout of\t{len(_total)}\tproteins are in the alignment result")
-    for no, _sum in cluster_count.items():
-        print(f"{no}\tEquivalent Class Coverage number :\t{_sum}")
-        print(f"{no}\tProportion is :\t{_sum/number_of_clusters}")
-    for no, _sum in node_count.items():
-        print(f"{no}\tNodes Coverage number :\t{_sum}")
-        print(f"{no}\tProportion is :\t{_sum/len(protein_set)}")
+    print(f"In total:\n\tthere are\t{number_of_clusters}\tclusters in the alignment result.")
+    print(f"\t{len(protein_set)}\tout of\t{len(_total)}\tproteins are in the alignment result.")
+    print(f"Cluster Coverage:")
+    for no, _sum in sorted(cluster_count.items(),reverse=True):
+        print(f"{no}\tEquivalent Class Coverage number :\t{_sum};\tProportion is :\t{'%f%%' % (_sum/(number_of_clusters) * 100)}.")
+    print(f"Node Coverage:")
+    for no, _sum in sorted(node_count.items(),reverse=True):
+        print(f"{no}\tNodes Coverage number :\t{_sum};\tProportion is :\t{'%f%%' % (_sum/len(protein_set) * 100)}.")
 
 
