@@ -20,7 +20,7 @@ cluster_num=len(file.readlines())#簇的数量
 e_total=0
 ecs_total=0
 for i in range(0,cluster_num-1):#第一个到倒数第二个簇
-    i_hu=[]
+    i_hu=[]# list of proteins of network : hu
     i_mo=[]
     i_rt=[]
 
@@ -28,12 +28,13 @@ for i in range(0,cluster_num-1):#第一个到倒数第二个簇
     i_cluster_data=i_cluster.strip('\n').split(' ')
 
     for data in i_cluster_data:
-        if(data.startswith('hu')==1):
+        if(data.startswith('hu')==1):# use 'is True' will be more readable
             i_hu.append(data)
         elif(data.startswith('rt')==1):
             i_rt.append(data)
         elif(data.startswith('mo')==1):
             i_mo.append(data)
+    # cluster i's info
 
             
     for j in range(i+1,cluster_num):
@@ -56,7 +57,8 @@ for i in range(0,cluster_num-1):#第一个到倒数第二个簇
                 j_mo.append(datas)
             if(datas.startswith('rt')==1):
                j_rt.append(datas)
-        
+        # cluster (i+k)'s info
+
         for ihu in i_hu:
             for jhu in j_hu:
                 if ((ihu,jhu) in G_hu.edges()) or ((jhu,ihu) in G_hu.edges()):
