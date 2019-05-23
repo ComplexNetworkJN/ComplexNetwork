@@ -1,0 +1,10 @@
+cow_dog : 16 out of 15435 - about 0.10366051182377713%
+cow_human : 1 out of 15641 - about 0.006393453104021482%
+cow_mouse : 8 out of 15580 - about 0.051347881899871634%
+cow_rat : 14 out of 14988 - about 0.09340805978115826%
+dog_human : 2 out of 15616 - about 0.012807377049180328%
+dog_mouse : 4 out of 15474 - about 0.025849812588858732%
+dog_rat : 6 out of 14862 - about 0.04037141703673799%
+human_mouse : 3 out of 15996 - about 0.018754688672168042%
+human_rat : 1 out of 15206 - about 0.006576351440220966%
+mouse_rat : 4 out of 16674 - about 0.023989444644356483%
