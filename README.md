@@ -23,3 +23,7 @@
 
     - 各算法 公用的测试网络数据
     - 共5个网络
+
+### Evaluation data(GO)
+
+    - actual networks 网络的go terms 的原蛋白质名
