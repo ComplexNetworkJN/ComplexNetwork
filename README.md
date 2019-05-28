@@ -2,6 +2,7 @@
 
 
 ### PPI_networks
+
     - 仅用来存放PPI网络的数据
 
 ### Data_Preprocessing
@@ -14,5 +15,10 @@
     
     
 ### Synthetic Networks
+
+    - 各算法 公用的测试网络数据
+    - 一共有三套 分别名为CG， DMC， DMR
+
+### Actual Networks
 
     - 各算法 公用的测试网络数据
