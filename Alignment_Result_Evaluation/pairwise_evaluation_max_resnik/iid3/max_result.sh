@@ -1,8 +1,6 @@
 #!/bin/bash
 Max=/home/sana/Jurisica/IID/Max-orthologs_table.uni.txt
 
-
-
 s1=human;s2=mouse;
 echo ${s1}_${s2}
 awk '{print $1,$3}' $Max | fgrep -f - ${s1}-${s2}.align | wc -l

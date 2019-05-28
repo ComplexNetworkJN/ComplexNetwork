@@ -1,0 +1,6 @@
+human_mouse
+avg =  8.58057
+human_rat
+avg =  8.38752
+mouse_rat
+avg =  8.22211

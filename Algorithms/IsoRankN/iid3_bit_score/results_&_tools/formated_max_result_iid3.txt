@@ -1,0 +1,3 @@
+human_mouse : 12874 out of 15996 - about 80.48262065516379%
+human_rat : 12713 out of 15206 - about 83.60515585952913%
+mouse_rat : 12821 out of 16674 - about 76.89216744632361%
