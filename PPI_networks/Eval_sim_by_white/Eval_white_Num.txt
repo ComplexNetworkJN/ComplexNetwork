@@ -1,0 +1,12 @@
+   94999 cat-cat.sim
+  131653 cow-cow.sim
+  130365 dog-dog.sim
+  118176 guinea_pig-guinea_pig.sim
+  124130 horse-horse.sim
+  235233 human-human.sim
+  199381 mouse-mouse.sim
+  135225 pig-pig.sim
+  104887 rabbit-rabbit.sim
+  159636 rta-rta.sim
+  120355 sheep-sheep.sim
+ 1554040 total

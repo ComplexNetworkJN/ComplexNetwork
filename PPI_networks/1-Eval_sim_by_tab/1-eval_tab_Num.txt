@@ -1,0 +1,12 @@
+   94999 ca-ca.sim
+  131653 co-co.sim
+  130365 do-do.sim
+  118176 gu-gu.sim
+  124130 ho-ho.sim
+  235233 hu-hu.sim
+  199381 mo-mo.sim
+  135225 pi-pi.sim
+  104887 ra-ra.sim
+  159636 rt-rt.sim
+  120355 sh-sh.sim
+ 1554052 total
