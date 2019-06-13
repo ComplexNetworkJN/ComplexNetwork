@@ -1,6 +1,0 @@
-hu1 rt1 mo1
-hu2 hu3 rt2 mo2
-hu4 rt3 rt4 mo3
-hu5 rt5 mo4
-hu6 mo5
-hu7 hu8 rt6 rt7 mo6
