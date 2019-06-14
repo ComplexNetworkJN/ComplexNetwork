@@ -24,12 +24,12 @@ G_rt=read_network('rt.tab')
 
 #file=open("09_10.txt","r")
 
-file=open("alignment.txt","r")
+file=open("c_3_1-e.txt","r")
 cluster_num=len(file.readlines())#簇的数量
 d=defaultdict(list)#字典
 c_time=0#1.计数cluster行数；2.用作字典key值
 try:
-    with open('alignment.txt','r') as dict_file:#读alignment文件
+    with open('c_3_1-e.txt','r') as dict_file:#读alignment文件
         for line in dict_file:
             sample_=line.strip('\n').split(' ')#读alignment文件中每一行line
             for sample in sample_:#遍历list变量sample_中每个元素
