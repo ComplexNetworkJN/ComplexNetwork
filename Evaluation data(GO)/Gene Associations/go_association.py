@@ -20,7 +20,7 @@ class GoAssociation:
 		for line in gofile:
 			lc = lc+1
 			if lc % 1000 == 0:
-				print lc
+				print (lc)
 			if line[0] == "!":
 				continue
 			cols = line.split("\t")
