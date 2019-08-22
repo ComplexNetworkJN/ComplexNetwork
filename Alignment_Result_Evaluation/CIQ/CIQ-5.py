@@ -96,26 +96,31 @@ for i in range(0,cluster_num-1):#第一个到倒数第二个簇
                 if ((ihu,jhu) in G_hu.edges()) or ((jhu,ihu) in G_hu.edges()):
                     e=e+1
                     s_hu=1
+
         for imo in i_mo:
             for jmo in j_mo:
                 if ((imo,jmo) in G_mo.edges()) or ((jmo,imo) in G_mo.edges()):
                     e=e+1
                     s_mo=1
+
         for irt in i_rt:
             for jrt in j_rt:
                 if ((irt,jrt) in G_rt.edges() or (jrt,irt) in G_rt.edges()):
                     e=e+1
                     s_rt=1
+
         for ico in i_co:
             for jco in j_co:
                 if ((ico,jco) in G_co.edges() or (jco,ico) in G_co.edges()):
                     e=e+1
                     s_co=1
+
         for ido in i_do:
             for jdo in j_do:
                 if ((ido,jdo) in G_do.edges() or (jdo,ido) in G_do.edges()):
                     e=e+1
                     s_do=1
+
         s_=s_hu+s_mo+s_rt+s_co+s_do#s'
 
         if len(i_hu)!=0 and len(j_hu)!=0:
