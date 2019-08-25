@@ -6,8 +6,9 @@ Ratio=Four_Bit/Largest_Value
 
 
 
-s=''
+
 for each in ["AT","CE","DM","HS","MM","RN","SC","SP"]:
+    s=''
     temp=''
     f=open(f"{each}.sigs","r")
     f1=open(f"{each}_ratio.sigs","w")

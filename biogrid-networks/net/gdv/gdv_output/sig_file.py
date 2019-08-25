@@ -6,7 +6,7 @@ for species in nets:
 
     for index,line in enumerate(f):
         x=line.rstrip().split(" ")
-        fout.write(f"{str.lower(species)}{str(index+1)}"+"\t"+"\t".join(x)+"\n")
+        fout.write(f"{species}{str(index+1)}"+"\t"+"\t".join(x)+"\n")
 
 
 
