@@ -17,7 +17,7 @@ ff=open("converted_"+file_name,"w")
 try:
     for line in input_f:
         nodes=line.rstrip().split(sep)
-        cluster=f"{sep}".join(d[i] for i in [_ for _ in nodes if _ in d])
+        cluster=f"{sep}".join(d[i][1:] for i in [_ for _ in nodes if _ in d])
         if len(cluster.split(sep))>1:
             ff.write(cluster+"\n")
     
